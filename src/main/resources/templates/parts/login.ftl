@@ -28,8 +28,10 @@
 </#macro>
 
 <#macro logaut>
+    <div class="ml-2">
     <form action="/logout" method="post">
         <input type="hidden" name="_csrf" value="${_csrf.token}"/>
-        <input type="submit" value="Sing Out">
+        <input type="submit" value="Sing Out" class="btn btn-primary">
     </form>
+    </div>
 </#macro>

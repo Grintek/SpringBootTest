@@ -2,8 +2,7 @@
 
 
 <@c.page>
-    ${username}
-    <@l.login "/login" false />
+    <h4>${username}</h4>
     <form method="post">
         <div class="form-group row">
             <label class="col-sm-2 col-form-label">Password :</label>
